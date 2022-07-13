@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --bg-b: #3A68B8;
+    --f-o: 'Open sans', sans-serif;
+    --h1: 40px;
+    --h1-h: 45px;
+    --c-h: 25px;
+    --p: 16px;
+    --h-p: 18px;
+    --f-p: 14px;
+}
+
+header {
+    background: #09111E;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--p);
+    line-height: 22px;
+    color: var(--white);
+    padding: 0px 20px;
+}
+
+.btn {
+    background: var(--bg-b);
+    border-radius: 5px;
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--p);
+    line-height: 22px;
+    color: var(--white);
+    padding: 15px 30px;
+}
+
+.btn:hover {
+    background: #bacae5b9;
+    transition: .5s;
+}
+
+header .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .wrap .next-p {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--h-p);
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--bg-b);
+}
+
+header .wrap h1 {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 800;
+    font-size: var(--h1-h);
+    line-height: 130%;
+    color: var(--white);
+    margin-top: 10px;
+}
+
+header .wrap .p {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--white);
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+header .button {
+    margin-top: 50px;
+}
+
+.b-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+main {
+    background: #09111E;
+}
+
+.carousel-main {
+    padding: 40px 0px;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #9a9797 115.68%);
+    backdrop-filter: blur(200px);
+    /* opacity: 0.1; */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.swiper-slide h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+
+}
+
+.swiper-slide p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2C3647;
+}
+
+.swiper-pagination {
+    transform: translateY(10px);
+}
+
+
+/* =================== footer css ================ */
+footer {
+    background: #09101D;
+    color: var(--white);
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrap .footer-box p {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer-wrap .footer-box a {
+    display: block;
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.footer-wrap .footer-box a:hover {
+    color: var(--bg-b);
+    transition: 0.5s;
+}
+
+.footer-wrap .footer-box h2 {
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 25px 0px;
+}
+
+.footer-wrap .footer-box {
+    width: 200px;
+}
+
+.footer-icon {
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+}
+
+.footer-icon i {
+    font-size: 20px;
+}
+
+.lang select {
+    background: transparent;
+    color: var(--white);
+    border: none;
+    font-family: var(--f-o);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.lang select option {
+    background: var(--black) !important;
+}
